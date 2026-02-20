@@ -45,7 +45,7 @@ cd ~/Desktop/github/
 git clone https://github.com/marcosnevary/my-setup.git
 
 printf "> Linking dotfiles...\n"
-cd setup/config
+cd my-setup/config
 stow zsh kitty nvim
 
 printf "> Setup complete. Please restart Kitty.\n"
